@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body>header, #Hero {
+    background-color: #42A5F5;
+}
+
+body>header {
+    padding: 50.88px 144px;
+    display: flex;
+    gap: 65px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 65px;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#Hero>div{
+    padding-left: 144px;
+    font-size: 24px;
+    padding-top: 86px;
+    width: 658px;
+    margin-right: -300px;
+}
+
+.flex-container {
+    display: flex;
+    gap: 10.5px;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+#Hero button{
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10.5px;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 44.51px;
+}
+
+#Hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tickle {
+    animation: tickle 0.15s ease-in-out;
+}
+
+@keyframes tickle {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform:rotate(-10deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.grid-container{
+    display: flex;
+    margin-left: 10%;
+}
